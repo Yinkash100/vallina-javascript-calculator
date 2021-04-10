@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: darkgrey;
+    font-family: 'Nunito', sans-serif;
+}
+.calc {
+    width: 300px;
+    margin: 0 auto;
+}
+.input-screen {
+    width: 100%;
+    background-color: white;
+    color: black;
+    height: 5rem;
+    padding: 0.5rem;
+}
+.input-operator {
+    font-size: 1.25rem;
+    height: 3rem;
+}
+.input-result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    height: 2rem;
+    text-align: right;
+}
+.btn {
+    width: 100%;
+    height: 4rem;
+    outline: none;
+    color: black;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: bold;
+    border: none;
+}
+.btn-operator {
+    background-color: #d3fdf6;
+    color: black;
+}
+.btn-operand {
+    background-color: white;
+    color: black;
+}
+.btn:hover{
+    font-size: 1.60rem;
+     transform: translateY(-0.025rem);
+     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .20);
+ }
+
+.btn:active{
+     transform: translateY(-.1rem);
+     border: #fff;
+ }
+.btn-equals {
+    height: 8rem;
+    background-color: orange;
+}
+table {
+    width: 100%;
+}
+td {
+    width: 25%;
+}
